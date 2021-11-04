@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #101010;
+
+}
+page{
+    flex-wrap: flex;
+}
+
+@font-face {
+    font-family: 'floydFont';
+    src: url('update/the/path/font/floyd.ttf')
+}
+
+
+
+h1{
+    background-color: white;
+    color: black;
+    width: 80%;
+    margin: auto;
+    height: 6vw;
+    padding: 0.5vw;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-family: floydFont;
+    font-size: 3vw;
+}
+
+
+.fadein1 img {
+    position: absolute;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 6vw;
+    top:0;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+}
+
+
+@keyframes fade {
+    0% {opacity: 1;}
+    20% {opacity: 0.5;}
+    40% {opacity: 0;}
+    60% {opacity: 0;}
+    80% {opacity: 0;}
+    100% {opacity: 0.5;}
+}
+
+
+.fadein2 img {
+    position: absolute;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 6vw;
+    top:0;
+    animation-name: fade2;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+}
+
+
+@keyframes fade2 {
+    0% {opacity: 0;}
+    20% {opacity: 0.5;}
+    40% {opacity: 1;}
+    60% {opacity: 0.5;}
+    80% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+
+.fadein3 img {
+    position: absolute;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 6vw;
+    top:0;
+    animation-name: fade3;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+}
+
+
+@keyframes fade3 {
+    0% {opacity: 0;}
+    20% {opacity: 0;}
+    40% {opacity: 0.5;}
+    60% {opacity: 1;}
+    80% {opacity: 0.5;}
+    100% {opacity: 0;}
+}
+
+
+.fadein4 img {
+    position: absolute;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 6vw;
+    top:0;
+    animation-name: fade4;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+}
+
+
+@keyframes fade4 {
+    0% {opacity: 0;}
+    20% {opacity: 0;}
+    40% {opacity: 0;}
+    60% {opacity: 0;}
+    80% {opacity: 0.5;}
+    100% {opacity: 1;}
+}
