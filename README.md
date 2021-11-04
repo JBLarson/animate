@@ -12,6 +12,13 @@ Update the absolute path for the custom font
             font-family: 'floydFont';
             src: url('update/the/path/font/floyd.ttf')
         }
-        
+
+
+
+![divisionBell](https://user-images.githubusercontent.com/68449234/140394115-eb9b17ea-ae5f-47d4-b64d-bb6670b1684e.gif)
+
+
+
+
 ![darkSide](https://user-images.githubusercontent.com/68449234/140003966-52fabdaf-5715-4685-8d18-903a9e294a3c.gif)
 
