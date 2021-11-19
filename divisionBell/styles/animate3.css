@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #101010;
+
+}
+page{
+    flex-wrap: flex;
+}
+
+@font-face {
+    font-family: 'floydFont';
+    src: url('path/to/floyd.ttf')
+}
+
+
+
+h1{
+    background-color: black;
+    color: gold;
+    width: 60%;
+    margin: auto;
+    margin-top: 1vw;
+    padding: 1vw;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-family: floydFont;
+    font-size: 4vw;
+}
+
+
+.fadein1 img {
+    position: absolute;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-top: 8.5vw;
+    top:0;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+}
+
+
+@keyframes fade {
+    0% {opacity: 1;}
+    25% {opacity: 0.5;}
+    50% {opacity: 0;}
+    75% {opacity: 0.5;}
+    100% {opacity: 1;}
+}
+
+
+.fadein2 img {
+    position: absolute;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-top: 8.5vw;
+    top:0;
+    animation-name: fade2;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+}
+
+
+@keyframes fade2 {
+    0% {opacity: 0;}
+    25% {opacity: 0.5;}
+    50% {opacity: 1;}
+    75% {opacity: 0.5;}
+    100% {opacity: 0;}
+}
+
+
