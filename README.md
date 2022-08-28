@@ -1,8 +1,8 @@
-# floyd
+# animate
 
 
 
-HTML / CSS Animation of the Division Bell / Dark Side of the Moon album cover
+HTML / CSS Animations of Division Bell and Dark Side of the Moon album covers
 
 Image editing was done with https://ezgif.com/effects/
 
